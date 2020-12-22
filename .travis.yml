@@ -2,4 +2,5 @@ language: clojure
 arch:
    - amd64
    - ppc64le
+distro: bionic
 script: lein test-all
